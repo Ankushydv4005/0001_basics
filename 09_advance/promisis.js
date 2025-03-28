@@ -39,7 +39,7 @@ new Promise(function(resolve,reject)
 
 const PromiceThree=new Promise(function(resolve,reject)
 {
-    setTimeout(function()
+    setTimeouts(function()
     {
         resolve({userName:"Ankush Yadav",email:"ankushyadav4005@gmail.com"})
     },1000)
